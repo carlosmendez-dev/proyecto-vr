@@ -3,8 +3,8 @@ import "aframe";
 </script>
 
 <template>
-    <main class="absolute h-screen w-screen">
-        <a-scene>
+    <main class="absolute h-full w-full">
+        <a-scene >
             <a-box position="0 1 -2" color="#77B6EA"></a-box>
         </a-scene>
     </main>
