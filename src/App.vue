@@ -42,9 +42,8 @@ onMounted(()=>{
             <a-assets>
             </a-assets>
             <a-camera>
-                <a-cursor material="color:white"></a-cursor>
-                <a-text :value="'Oxygen: ' + oxigen + '%'" scale="0.5 0.5" opacity="0.5" color="#3192d3" position="2 2 -3"></a-text>
-                <a-text :value="'SpO2: ' + oxigen + '%'" scale="0.4 0.4" opacity="1" color="#3192d3" position="-0.5 -1.75 -3"></a-text>
+                <a-cursor material="color:trasparent"></a-cursor>
+                <a-text :value="'Oxygen: ' + oxigen + '%'" scale="0.3 0.3" opacity="0.7" color="white" position="-1.2 1.76 -3"></a-text>
                 <a-image ref="btn" src="/proyecto-vr/visor.png" alpha-test position="0 0 -0.6" width="2"></a-image>
             </a-camera>
             <a-image width="2.5" src="/proyecto-vr/button.png" :position="btnPosition.x + ' ' + btnPosition.y + ' ' + btnPosition.z"></a-image>
