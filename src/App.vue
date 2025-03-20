@@ -11,6 +11,12 @@ const btnPosition = reactive({
     z:-3
 })
 
+const btnDangerPosition = reactive({
+    x:0,
+    y:0.5,
+    z:-3
+})
+
 onMounted(()=>{
     // reloj de visor
     setInterval(()=>{
